@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#88e2d7d7">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="重新开始"
+        android:textSize="25dp"
+        android:textColor="#80000000"
+        android:background="#ffe4dcdc"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/restart" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="退出"
+        android:textSize="25dp"
+        android:textColor="#80000000"
+        android:background="#ffe4dcdc"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/restart"
+        android:layout_alignStart="@+id/restart"
+        android:id="@+id/quit"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="#A0e12626"
+        android:id="@+id/text"
+        android:layout_above="@+id/restart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp" />
+
+</RelativeLayout>
